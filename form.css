@@ -1,0 +1,286 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #742ce3;
+}
+
+.form {
+    width: 65%;
+    height: 550px;
+    background-color: blue;
+    margin: 40px auto;
+    display: flex;
+    box-shadow: 2px 2px 3px black;
+}
+
+div#form {
+    width: 50%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.984);
+}
+
+#allinput {
+ width: 86.8%;
+ height: 550px;
+ position: absolute;
+ display: flex;
+ flex-direction: column;
+ gap: 4.3px;
+ top: 55px;
+ left: 25px;
+}
+
+div#form:nth-child(1){
+    background-color: red;
+    background-image: url('loreto.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    object-fit: cover;
+    background-position: top center bottom;
+}
+
+div#form:nth-child(2) {
+    position: relative;
+    background-color: rgb(240, 255, 255);
+}
+
+
+
+div#box {
+    width: 100%;
+    height: 100%;
+    /*background-color: #752ce346;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 3.2rem;
+    color: rgba(255, 255, 255, 0.805);
+    
+}
+
+div #advent, #par {
+    text-align: center;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 2.1rem;
+}
+
+#par {
+    font-size: 1.3rem;
+    font-weight: 600;
+
+}
+
+#Username {
+    width: 85.8%;
+    padding-bottom: 10px;
+    font-size: 1.1rem;
+    border-radius: 5px;
+    border-width: 0 0 1px 2px;
+    border-color:#742ce3;
+    margin-top: 5px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    box-shadow: 0 0 1px  black inset;
+}
+
+#Username:focus {
+    outline: none;
+}
+
+#Password {
+    width: 85.8%;
+    padding-bottom: 10px;
+    font-size: 1.1rem;
+    border-radius: 5px;
+    border-width: 0 0 1px 2px;
+    border-color:#742ce3;
+    margin-top: 5px;
+    outline: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    box-shadow: 0 0 1px  black inset;
+}
+
+input::-webkit-file-upload-button {
+    background-color: white;
+    outline: none;
+    border-width: 0 0 1px 2px;
+    border-radius: 5px;
+    border-color: #742ce3;
+    box-shadow: 0 0 1px  black inset;
+}
+
+#file {
+    width: 50%;
+    padding-bottom: 10px;
+    font-size: 1.1rem;
+    
+}
+
+#email {
+    width: 85.8%;
+    outline: none;
+    cursor: pointer;
+    padding-bottom: 10px;
+    font-size: 1.1rem;
+    border-width: 0 0 1px 2px;
+    border-radius: 5px;
+    border-color:#742ce3;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    box-shadow: 0 0 1px  black inset;
+}
+
+#gender {
+    width: 18px;
+    height: 18px;
+}
+
+label {
+    font-size: 1.0rem;
+    color: rgba(0, 0, 0, 0.731);
+    font-weight: 600;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    box-shadow: 0 0 1px  black inset;
+    background-color: white;
+    border-radius: 5px;
+    padding: 0px 5px;
+}
+
+input {
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+#submit {
+    width: 86%;
+    height: 40px;
+    font-size:18px;
+    cursor: pointer;
+    background-color: #742ce3;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    outline: none;
+    border-width: 0 0 0px;
+    color: white;
+    border-radius: 5px;
+    box-shadow: inset 0 -5px  0 0 rgba(0, 0, 0, 0.2 );
+    transition: 0.1s;
+    text-shadow: 0px 3px rgba(0, 0, 0, 0.2);
+
+}
+
+#submit:hover {
+    background-color: white;
+    color: #742ce3;
+    transition: 0.4s;
+    box-shadow: inset 0px 3px rgba(0, 0, 0, 0.2);
+}
+
+#submit:active {
+    box-shadow: inset 0 -1px 0 0  rgba(0, 0, 0, 0.2 );
+    text-shadow: 0px 1px rgba(0, 0, 0, 0.2);
+}
+
+#sign {
+    background-color: rgba(240, 255, 255, 0.925);
+    font-weight: 600;
+    color: #742ce3;
+    padding: 5px 20px;
+    font-size: 1.3rem;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: inset 0 -4px  0 0 rgba(0, 0, 0, 0.2 );
+    transition: 0.1s;
+    text-shadow: 0px 3px rgba(0, 0, 0, 0.2);
+}
+
+#sign:hover {
+    background-color: #742ce3;
+    transition: 0.4s;
+    color: white;
+    transition: 0.4s;
+    box-shadow: inset 0px 5px rgba(0, 0, 0, 0.2);
+}
+
+#sign:active {
+    box-shadow: inset 0 -1px 0 0  rgba(0, 0, 0, 0.2 );
+    text-shadow: 0px 1px rgba(0, 0, 0, 0.2);
+}
+
+
+
+ #reg {
+    margin-bottom: 20px;
+    font-size: 1.1rem;
+    font-weight: 600;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: 25%;
+    padding: 3px 2px;
+    background-color:white;
+    color: black;
+    box-shadow: 0 0 1px  black inset;
+    border-radius: 5px;
+ }
+
+
+@media screen and (max-width: 741px) {
+    div#form:nth-child(1){
+        display: none;
+        font-size: small;
+    }
+
+    div#form:nth-child(2){
+        width: 100%;
+        
+    }
+}
+
+@media screen and (max-width: 259px) {
+    #allinput {
+        left: 10px;
+        position: relative;
+    }
+    #submit {
+        font-size: 0.8rem;
+    }
+    #email {
+        font-size: 0.5rem;
+        width: 100%;
+        right: 7px;
+        position: relative;
+    }
+    #file {
+        font-size: 0.7rem;
+        width: 100%;
+        right: 7px;
+        position: relative;
+    }
+
+    #gender {
+        width: 13px;
+        height: 13px;
+    }
+    label {
+        font-size: 0.7em;
+    }
+    
+    #Password {
+        font-size: 0.5rem;
+        width: 100%;
+        right: 7px;
+        position: relative;
+    }
+
+    #Username {
+        font-size: 0.7rem;
+        right: 7px;
+        position: relative;
+    }
+    #reg {
+        width: 100%;
+        position: relative;
+        right: 7px;
+    }
+}
